@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- the theme applied to the application or activity -->
+    <style name="CustomActionBarTheme"
+        parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+    </style>
+
+    <!-- ActionBar styles -->
+    <style name="MyActionBar"
+        parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/background</item>
+    </style>
+
+    <style name="CustomActionBarThemeReport"
+        parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/reporte</item>
+    </style>
+
+    <!-- ActionBar styles -->
+    <style name="reporte"
+        parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/reportes</item>
+    </style>
+
+    <!-- the theme applied to the application or activity -->
+    <style name="CustomActionBarThemeNB"
+        parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/NB</item>
+    </style>
+
+    <!-- ActionBar styles -->
+    <style name="NB"
+        parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/notebook</item>
+    </style>
+
+    <!-- the theme applied to the application or activity -->
+    <style name="CustomActionBarThemeLCV"
+        parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/lcv</item>
+    </style>
+
+    <!-- ActionBar styles -->
+    <style name="lcv"
+        parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/lcv</item>
+    </style>
+    <!-- the theme applied to the application or activity -->
+    <style name="CustomActionBarThemeCall"
+        parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/call</item>
+    </style>
+
+    <!-- ActionBar styles -->
+    <style name="call"
+        parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/llamadas</item>
+    </style>
+
+</resources>

@@ -1,0 +1,163 @@
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:columnCount="1"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="#....#"
+        android:id="@+id/TextCliente"
+        android:textSize="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Reportes del mes de: "
+        android:id="@+id/TextMes"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp" />
+
+
+    <LinearLayout
+        android:layout_marginTop="64dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:orientation="horizontal">
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+        <RelativeLayout
+            android:id="@+id/imagelayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/image_Minutos"
+            android:src="@drawable/minutos"
+            />
+            <TextView
+                android:id="@+id/TextMinutos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/image_Minutos"
+                android:layout_alignBottom="@+id/image_Minutos"
+                android:layout_alignTop="@+id/image_Minutos"
+                android:layout_alignRight="@+id/image_Minutos"
+                android:gravity="center"
+                android:textSize="30dp"
+                android:text="Hello"
+                android:textColor="#ffffff"
+
+                />
+        </RelativeLayout>
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5" />
+        <RelativeLayout
+            android:id="@+id/imagelayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/image_Conferencias"
+            android:src="@drawable/conferencias"
+            android:layout_gravity="start"
+             />
+            <TextView
+                android:id="@+id/TextConferencias"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/image_Conferencias"
+                android:layout_alignTop="@+id/image_Conferencias"
+                android:layout_alignRight="@+id/image_Conferencias"
+                android:layout_alignBottom="@+id/image_Conferencias"
+                android:layout_margin="1dp"
+                android:gravity="center"
+                android:textSize="30dp"
+                android:text="Hello"
+                android:textColor="#ffffff" />
+        </RelativeLayout>
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/image_LLamadas"
+            android:src="@drawable/llamadas"
+             />
+            <TextView
+                android:id="@+id/TextLlamadas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="30dp"
+                android:text="Hello"
+                android:textColor="#ffffff"
+                android:layout_alignLeft="@+id/image_LLamadas"
+                android:layout_alignBottom="@+id/image_LLamadas"
+                android:layout_alignTop="@+id/image_LLamadas"
+                android:layout_alignRight="@+id/image_LLamadas" />
+        </RelativeLayout>
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5" />
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/image_Participantes"
+            android:src="@drawable/participantes"
+            android:layout_gravity="start" />
+            <TextView
+                android:id="@+id/TextParticipantes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/image_Participantes"
+                android:layout_alignTop="@+id/image_Participantes"
+                android:layout_alignRight="@+id/image_Participantes"
+                android:layout_alignBottom="@+id/image_Participantes"
+                android:layout_margin="1dp"
+                android:gravity="center"
+                android:textSize="30dp"
+                android:text="Hello"
+                android:textColor="#ffffff" />
+        </RelativeLayout>
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+</GridLayout>

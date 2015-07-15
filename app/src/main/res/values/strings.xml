@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AudioWeb</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Login</string>
+    <string name="soporte_monitoreo">SOPORTE MONITOREO</string>
+    <string name="llamar_ac">LLAMAR AC</string>
+    <string name="organizador"># ORGANIZADOR</string>
+    <string name="participante"># PARTICIPANTE</string>
+    <string name="monitoreo_vivo">MONITOREO EN VIVO</string>
+    <string name="libreta_direcciones">LIBRETA DE DIRECCIONES</string>
+    <string name="reportes_ac">REPORTES DE AC</string>
+    <string name="reportes_mes">Reportes del mes de</string>
+    <string name="title_activity_llamar_">Llamar Ac</string>
+    <string name="title_activity_monitoreo_vivo">Monitoreo en vivo</string>
+    <string name="title_activity_libreta_direcciones">Libreta de direcciones</string>
+    <string name="title_activity_reportes_">Reportes de Ac</string>
+    <string name="title_activity_main_screen">MainScreen</string>
+    <string name="title_activity_unirse__reunion">Unirse a Reunion</string>
+
+</resources>
