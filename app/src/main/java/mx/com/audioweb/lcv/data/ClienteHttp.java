@@ -26,7 +26,7 @@ import java.util.List;
  * Created by Juan Acosta on 8/11/2014.
  */
 public class ClienteHttp {
-    public static final String URL = "http://www.audiowebcentral.com.mx/webServices/";
+    public static final String URL = "Aqui Url Especificada en Drive";
     private static final String DATEF = "yyyy-MM-dd HH:mm:ss";
     private Gson gson = new GsonBuilder().setDateFormat(DATEF).create();
 

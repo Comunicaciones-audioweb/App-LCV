@@ -22,7 +22,7 @@ public class Login extends Activity {
     ImageButton LogIn;
     SessionManager session;
     int backButton = 0;
-    String Conexion_URL = "http://www.audiowebcentral.com.mx/webServices/doLogin.php";
+    String Conexion_URL = "do Login URL";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
